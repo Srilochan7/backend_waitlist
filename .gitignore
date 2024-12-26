@@ -1,1 +1,13 @@
-backend/.env
+# Ignore .env file in the root directory
+.env
+
+
+# Ignore node_modules folders
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
